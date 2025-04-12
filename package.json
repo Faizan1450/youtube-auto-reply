@@ -1,0 +1,16 @@
+{
+  "name": "youtube-auto-reply",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@google-cloud/local-auth": "^3.0.1",
+    "@google/genai": "^0.7.0",
+    "@google/generative-ai": "^0.24.0",
+    "dotenv": "^16.4.7",
+    "fs": "^0.0.1-security",
+    "googleapis": "^105.0.0",
+    "openai": "^4.0.0"
+  }
+}
