@@ -27,4 +27,6 @@ jobs:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           CHANNEL_ID: ${{ secrets.CHANNEL_ID }}
           CHANNEL_NAME: ${{ secrets.CHANNEL_NAME }}
+          REFRESH_TOKEN: ${{ secrets.REFRESH_TOKEN }}
+          REDIRECT_URI: ${{ secrets.REDIRECT_URI }}
         run: node index.js

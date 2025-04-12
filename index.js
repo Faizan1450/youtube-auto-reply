@@ -4,15 +4,9 @@ import { authorize } from "./auth.js";
 import { GoogleGenAI } from "@google/genai";
 import "dotenv/config";
 
-const replyLogFile = "replyLog.json";
 const batchInfo = fs.readFileSync("UpcomingBatches.txt", "utf8");
 
 const ai = new GoogleGenAI({ apiKey: process.env.GEMINI_API_KEY });
-
-let replyLog = [];
-if (fs.existsSync(replyLogFile)) {
-  replyLog = JSON.parse(fs.readFileSync(replyLogFile));
-}
 
 const CONTEXT = `
 You are the smart, friendly assistant of the SCALive YouTube channel.
@@ -114,22 +108,7 @@ async function replyToComments() {
     console.log("Comment: ", commentText)
     console.log("Reply:", reply);
     console.log("========================================================================");
-
-
-
-    const replyId = insertResponse.data.id;
-
-    replyLog.push({
-      commentId,
-      replyId,
-      commentText,
-      replyText: reply,
-      isContainHistory: false
-    });
-
   }
-
-  fs.writeFileSync(replyLogFile, JSON.stringify(replyLog, null, 2));
 }
 
 replyToComments();
