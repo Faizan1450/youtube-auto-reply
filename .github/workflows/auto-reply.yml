@@ -1,0 +1,30 @@
+name: YouTube Auto Reply Bot
+
+on:
+  schedule:
+    - cron: "0 */8 * * *" # Runs every 8 hours
+  workflow_dispatch: # Allows manual trigger
+
+jobs:
+  reply-job:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Run bot script
+        env:
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          CHANNEL_ID: ${{ secrets.CHANNEL_ID }}
+          CHANNEL_NAME: ${{ secrets.CHANNEL_NAME }}
+        run: node index.js
