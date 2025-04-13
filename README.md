@@ -1,48 +1,87 @@
 # SCALive YouTube Auto Reply Bot 🤖
 
-This Node.js bot uses Google Gemini AI to auto-reply to comments on SCALive’s YouTube channel with natural, witty, and context-aware responses.
+A Node.js application that automatically replies to comments on the SCALive YouTube channel using Google Gemini AI and the YouTube Data API. It generates context-aware, human-like responses in English or Hinglish.
 
 ---
 
-## Features
+## 🚀 Features
 
-- Human-like replies using Gemini AI (Hinglish & English)
-- Handles full comment threads with conversation context
-- Skips replies if the last message is already from the channel
-- Pulls batch info from `batchInfo.txt` for promo replies
-- Logs replies in `replyLog.json` for transparency
+- **Smart Replies**: Witty, supportive, or clarifying responses via Gemini AI  
+- **Thread Context**: Continues conversations by fetching comment history  
+- **Language Detection**: Replies in English or Hinglish based on the comment  
+- **Scheduled Automation**: Runs every 8 hours via GitHub Actions  
+- **Batch Info Injection**: Reads upcoming batch details from `UpcomingBatches.txt`  
+- **Secure Configuration**: Credentials and API keys managed via GitHub Secrets  
 
 ---
 
-## Setup
+## 🛠️ Installation & Setup
 
-1. Install dependencies
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/your-username/youtube-auto-reply.git
+   cd youtube-auto-reply
+   ```
+
+2. **Install dependencies**
    ```bash
    npm install
    ```
 
-2. Configure `.env`
+3. **Configure GitHub Secrets**  
+   In your repository settings, add the following under **Settings → Secrets and Variables → Actions**:
+   - `GOOGLE_CREDENTIALS` (JSON string with `type`, `client_id`, `client_secret`, `refresh_token`)  
+   - `GEMINI_API_KEY`  
+   - `YOUTUBE_API_KEY`  
+   - `CHANNEL_ID`  
+   - `CHANNEL_NAME`  
+
+4. **(Optional) Local Development**  
+   Create a `.env` file for local testing:
    ```env
-   YOUTUBE_API_KEY=your-api-key
-   GEMINI_API_KEY=your-api-key
-   CHANNEL_ID=your-channel-id
+   GOOGLE_CREDENTIALS='{"type":"authorized_user","client_id":"...","client_secret":"...","refresh_token":"..."}'
+   GEMINI_API_KEY=your-gemini-key
+   YOUTUBE_API_KEY=your-youtube-key
+   CHANNEL_ID=UC...
    CHANNEL_NAME=Your Channel Name
    ```
 
-3. Add batch details to `batchInfo.txt`
-
 ---
 
-## Run the Bot
+## ⚙️ Usage
 
+### Local Run
 ```bash
 node index.js
 ```
 
+### GitHub Actions
+The bot runs automatically every 8 hours.  
+To trigger manually:
+1. Go to the **Actions** tab.  
+2. Select **YouTube Auto Reply Bot**.  
+3. Click **Run workflow**.
+
 ---
 
-## Contact
+## 📂 Project Structure
 
-📧 info@scalive.in  
-📞 07314853128  
-🔗 [Telegram](https://t.me/scaofficialchannel)
+```
+.
+├── index.js                   # Main bot logic
+├── auth.js                    # OAuth2 helper (uses env secrets)
+├── UpcomingBatches.txt        # Batch details injected into replies
+├── .github/
+│   └── workflows/
+│       └── auto-reply.yml     # GitHub Actions configuration
+├── package.json
+└── README.md
+```
+
+---
+
+## 📬 Contact
+
+- Email: info@scalive.in  
+- Phone: 07314853128  
+- Telegram: https://t.me/scaofficialchannel  
