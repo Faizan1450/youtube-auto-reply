@@ -51,7 +51,7 @@ async function replyToComments() {
   const channelRes = await youtube.commentThreads.list({
     part: "snippet",
     allThreadsRelatedToChannelId: process.env.CHANNEL_ID,
-    maxResults: 1,
+    maxResults: 10,
     order: "time",
   });
 
