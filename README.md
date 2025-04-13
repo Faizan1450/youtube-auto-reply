@@ -80,8 +80,8 @@ To trigger manually:
 
 ---
 
-## 📬 Contact
+## 📬 Contact Developer
 
-- Email: info@scalive.in  
-- Phone: 07314853128  
-- Telegram: https://t.me/scaofficialchannel  
+- Name: Syed Faizan Ali  
+- Phone: 9770093064  
+- Email: syedfaizanali1450@gmail.com  
