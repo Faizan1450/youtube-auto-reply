@@ -2,7 +2,7 @@ import { google } from "googleapis";
 
 export async function authorize() {
   try {
-    const credentials = JSON.parse(process.env.GOOGLE_CREDENTIAL);
+    const credentials = JSON.parse(process.env.GOOGLE_CREDENTIALS);
     const client = google.auth.fromJSON(credentials);
     return client;
   } catch (err) {
