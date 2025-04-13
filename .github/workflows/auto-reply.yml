@@ -2,8 +2,10 @@ name: YouTube Auto Reply Bot
 
 on:
   schedule:
-    - cron: "0 */8 * * *" # Runs every 8 hours
-  workflow_dispatch: # Allows manual trigger
+    - cron: '30 3 * * *'   # 09:00 IST
+    - cron: '30 9 * * *'   # 15:00 IST
+    - cron: '30 17 * * *'  # 23:00 IST
+  workflow_dispatch:
 
 jobs:
   reply-job:
