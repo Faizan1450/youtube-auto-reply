@@ -8,9 +8,11 @@
     "@google-cloud/local-auth": "^3.0.1",
     "@google/genai": "^0.7.0",
     "@google/generative-ai": "^0.24.0",
-    "dotenv": "^16.4.7",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
     "fs": "^0.0.1-security",
     "googleapis": "^105.0.0",
+    "joi": "^17.13.3",
     "openai": "^4.0.0"
   }
 }
