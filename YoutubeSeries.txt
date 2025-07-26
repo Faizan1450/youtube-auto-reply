@@ -2,28 +2,28 @@ Youtube Videos and Series/Playlist
 ================================
 
 OOPs Playlist
-Prerequisites: Programming Basics
+Prerequisites(Should have prior knowlege of): Programming Basics
 Technology Used: Java
 Link: https://www.youtube.com/playlist?list=PLhHaibdHQVE3er4NShjz3vT2-6pHv-6Ed
 
 OOPs One shot
-Prerequisites: Programming Basics
+Prerequisites(Should have prior knowlege of): Programming Basics
 Technology Used: Java
 Link: https://youtu.be/dhksGkjtKqk
 
 Ongoing MERN Stack Backend Project Playlist
-Prerequisites: Javascript, Nodejs, expressjs and mongodb
+Prerequisites(Should have prior knowlege of): Javascript, Nodejs, expressjs and mongodb
 Link: https://www.youtube.com/playlist?list=PLhHaibdHQVE3rmVdSWZYI7E42j0WZ7rc5
 
 React Router Playlist
-Prerequisites: Javascript and React basics
+Prerequisites(Should have prior knowlege of): Javascript and React basics
 Link: https://www.youtube.com/playlist?list=PLhHaibdHQVE2ZV1cqZUUBK0Y-W5-I3wLG
 
-Spring Boot Complete Project Playlist
-Prerequisites: Java, Spring core, Spring Boot, Spring MVC
+Spring Boot Project Playlist
+Prerequisites(Should have prior knowlege of): Java, Spring core, Spring Boot, Spring MVC
 Link: https://www.youtube.com/playlist?list=PLhHaibdHQVE1i3qWow-Mp0W_OrBrq1ykg
 
-Python Complete Project Playlist
+Python Project Playlist
 Link: https://www.youtube.com/playlist?list=PLhHaibdHQVE09rMTkdw9i-TBuCdCYVSQy
 
 Multithreading in Java Playlist
@@ -69,17 +69,17 @@ Complexity Analysis complete playlist
 Link: https://www.youtube.com/playlist?list=PLhHaibdHQVE0AAvlLsudCsUywGch6fzm2
 
 Recursion Complete Playlist
-Prerequisites: Java Basics
+Prerequisites(Should have prior knowlege of): Java Basics
 Technology Used: Java
 Link: https://www.youtube.com/playlist?list=PLhHaibdHQVE31gm4yWaTASdGWwBjJ19Mz
 
 Queue Complete Playlist
-Prerequisites: Java Basics, Stack(Optional)
+Prerequisites(Should have prior knowlege of): Java Basics, Stack(Optional)
 Technology Used: Java
 Link: https://www.youtube.com/playlist?list=PLhHaibdHQVE3ZdZBC9l3d1-ZwxeX2zqFZ
 
 Stack Complete Playlist
-Prerequisites: Java Basics
+Prerequisites(Should have prior knowlege of): Java Basics
 Technology Used: Java
 Link: https://www.youtube.com/playlist?list=PLhHaibdHQVE2LSISD665uN1td3FHrNhXm
 
