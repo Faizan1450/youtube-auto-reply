@@ -1,0 +1,103 @@
+Youtube Videos and Series/Playlist
+================================
+
+OOPs Playlist
+Prerequisites: Programming Basics
+Technology Used: Java
+Link: https://www.youtube.com/playlist?list=PLhHaibdHQVE3er4NShjz3vT2-6pHv-6Ed
+
+OOPs One shot
+Prerequisites: Programming Basics
+Technology Used: Java
+Link: https://youtu.be/dhksGkjtKqk
+
+Ongoing MERN Stack Backend Project Playlist
+Prerequisites: Javascript, Nodejs, expressjs and mongodb
+Link: https://www.youtube.com/playlist?list=PLhHaibdHQVE3rmVdSWZYI7E42j0WZ7rc5
+
+React Router Playlist
+Prerequisites: Javascript and React basics
+Link: https://www.youtube.com/playlist?list=PLhHaibdHQVE2ZV1cqZUUBK0Y-W5-I3wLG
+
+Spring Boot Complete Project Playlist
+Prerequisites: Java, Spring core, Spring Boot, Spring MVC
+Link: https://www.youtube.com/playlist?list=PLhHaibdHQVE1i3qWow-Mp0W_OrBrq1ykg
+
+Python Complete Project Playlist
+Link: https://www.youtube.com/playlist?list=PLhHaibdHQVE09rMTkdw9i-TBuCdCYVSQy
+
+Multithreading in Java Playlist
+Link: https://www.youtube.com/playlist?list=PLhHaibdHQVE0ecnhFVYewPopgD2ZAiDWQ
+
+C Programming Language one shot
+Link: https://youtu.be/G13b6423GYg
+
+Complete HTML One SHOT video 
+Link: https://youtu.be/f9NdTNzZ5kM
+
+JavaScript basic to advance Playlist
+Link: https://www.youtube.com/playlist?list=PLhHaibdHQVE3s1nDrxOEC90wofy129Y9i
+
+Front End Project Series using HTML CSS JavaScript
+Link: https://www.youtube.com/playlist?list=PLhHaibdHQVE3EZwLBTDYf8-krBhaih9wC
+
+Todo List Project using HTML CSS JavaScript
+Link: https://youtu.be/ZjzJrAf3hHE
+
+Music Player Project using HTML CSS And JavaScript
+Link: https://youtu.be/JAomdJH9cvQ
+
+Flexi Card Project using HTML CSS And JavaScript
+Link: https://youtu.be/6giD5EYDVHY
+
+Animated Product Card Project Using HTML CSS And JavaScript
+Link: https://youtu.be/9tZBGjyR8Bw
+
+Tic Tac Toe Project Using HTML CSS And JavaScript
+Link: https://youtu.be/Qv52UxRRiYQ
+
+Web Development Tutorial complete Playlist (Topics covered: HTML, CSS, JavaScript)
+Link: https://www.youtube.com/playlist?list=PLhHaibdHQVE3l6qkzvU8qmyiYtBOxm4QC
+
+Complete CSS Playlist
+Link: https://www.youtube.com/playlist?list=PLhHaibdHQVE375-DM7FasazD4Y4TgGQhT
+
+Complete core java project
+Link: https://www.youtube.com/playlist?list=PLhHaibdHQVE3IfsTrxHiuW9TGgik9wf_V
+
+Complexity Analysis complete playlist
+Link: https://www.youtube.com/playlist?list=PLhHaibdHQVE0AAvlLsudCsUywGch6fzm2
+
+Recursion Complete Playlist
+Prerequisites: Java Basics
+Technology Used: Java
+Link: https://www.youtube.com/playlist?list=PLhHaibdHQVE31gm4yWaTASdGWwBjJ19Mz
+
+Queue Complete Playlist
+Prerequisites: Java Basics, Stack(Optional)
+Technology Used: Java
+Link: https://www.youtube.com/playlist?list=PLhHaibdHQVE3ZdZBC9l3d1-ZwxeX2zqFZ
+
+Stack Complete Playlist
+Prerequisites: Java Basics
+Technology Used: Java
+Link: https://www.youtube.com/playlist?list=PLhHaibdHQVE2LSISD665uN1td3FHrNhXm
+
+Searching Sorting Complete Playlist
+Link: https://www.youtube.com/playlist?list=PLhHaibdHQVE28_lyYvZKIyVH-qdlPYrfe
+
+ArrayList Complete Playlist
+Link: https://www.youtube.com/playlist?list=PLhHaibdHQVE1vrbj-IwMdMVhC-CszmHx9
+
+2D Array Complete Playlist
+Link: https://www.youtube.com/playlist?list=PLhHaibdHQVE3qq7XqFQZzdiH2N-iUAKJ2
+
+String Complete Playlist
+Link: https://www.youtube.com/playlist?list=PLhHaibdHQVE0SKaFKrfg0IUTSnXDS6nGa
+Technology Used: Java
+
+Array Complete Playlist
+Link: https://www.youtube.com/playlist?list=PLhHaibdHQVE1AG_IROR3DP5OJPgOdnaR_
+Technology Used: Java
+
+// Rest Series either pending or either we are planning and will release in future
