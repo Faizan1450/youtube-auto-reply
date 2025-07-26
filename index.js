@@ -5,14 +5,16 @@ import { GoogleGenAI } from "@google/genai";
 import "dotenv/config";
 
 const batchInfo = fs.readFileSync("UpcomingBatches.txt", "utf8");
-const CONTEXT = fs.readFileSync("Context.txt", "utf8");
+const context = fs.readFileSync("Context.txt", "utf8");
+const contentYT = fs.readFileSync("YoutubeSeries.txt", "utf8");
 
 const ai = new GoogleGenAI({ apiKey: process.env.GEMINI_API_KEY });
 
 async function generateReply(comment, commenterName, historyBlock = "") {
-  const prompt = `${CONTEXT}\n\n${batchInfo}\n\n${historyBlock}Comment by ${commenterName}\n\nComment: ${comment}\n\nReply:`;
+  const prompt = `${context}\n\n${batchInfo}\n\n${contentYT}\n\n${historyBlock}Comment by ${commenterName}\n\nComment: ${comment}\n\nReply:`;
   const response = await ai.models.generateContent({
     model: "gemini-2.0-flash",
+    // model: "gemini-2.0-flash-lite",
     contents: prompt,
   });
   return response.text.trim();
@@ -26,7 +28,7 @@ async function replyToComments() {
   const channelRes = await youtube.commentThreads.list({
     part: "snippet",
     allThreadsRelatedToChannelId: process.env.CHANNEL_ID,
-    maxResults: 10,
+    maxResults: 100,
     order: "time",
   });
 
@@ -68,7 +70,7 @@ async function replyToComments() {
     }
 
     const reply = await generateReply(commentText, commenterName, historyBlock);
-    const insertResponse = await youtube.comments.insert({
+    await youtube.comments.insert({
       part: "snippet",
       requestBody: {
         snippet: {
