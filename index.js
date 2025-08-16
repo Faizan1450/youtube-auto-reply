@@ -7,11 +7,14 @@ import "dotenv/config";
 const batchInfo = fs.readFileSync("UpcomingBatches.txt", "utf8");
 const context = fs.readFileSync("Context.txt", "utf8");
 const contentYT = fs.readFileSync("YoutubeSeries.txt", "utf8");
+let currentDate = new Date().toLocaleDateString()
+currentDate = `Today's current Date is: ${currentDate}`
 
 const ai = new GoogleGenAI({ apiKey: process.env.GEMINI_API_KEY });
 
 async function generateReply(comment, commenterName, historyBlock = "") {
-  const prompt = `${context}\n\n${batchInfo}\n\n${contentYT}\n\n${historyBlock}Comment by ${commenterName}\n\nComment: ${comment}\n\nReply:`;
+  const prompt = `${context}\n\n${currentDate}\n\n${batchInfo}\n\n${contentYT}\n\n${historyBlock}Comment by ${commenterName}\n\nComment: ${comment}\n\nReply:`;
+  
   const response = await ai.models.generateContent({
     model: "gemini-2.0-flash",
     // model: "gemini-2.0-flash-lite",
