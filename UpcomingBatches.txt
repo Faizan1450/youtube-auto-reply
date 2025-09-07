@@ -1,19 +1,5 @@
 📚 Current and Upcoming Latest Batches @SCALive
 
-✅ MERN FullStack (Hybrid)
-🗓️ 19th Aug | 🕢 7:30 PM | 👨‍🏫 Sachin Sir and Team
-Registration: https://bit.ly/SCAmernstack
-
-✅ Spring & Spring Boot (Online)
-🗓️ 20th Aug | 🕢 8:30 PM | 👨‍🏫 Sachin Sir
-Registration: https://bit.ly/SCAspring
-
-✅ JAVAVERSE AI-Powered Java FullStack (Offline Batch - Indrapuri Center)
-🗓️ 22nd Aug | 🕢 6:30 PM | 👨‍🏫 Sachin Sir and Team
-
-✅ JAVAVERSE AI-Powered Java FullStack (Offline Batch — Mansarovar Center)
-🗓️ 23rd Aug | 🕢 6:00 PM | 👨‍🏫 Sachin Sir and Team
-
 ✅ C/C++ (Offline Batch)
 🗓️ 26th Aug | 🕢 6:00 PM | 👨‍🏫 Sachin Sir
 Registration: — Sachin Sir and Team

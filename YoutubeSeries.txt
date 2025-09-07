@@ -14,6 +14,7 @@ Link: https://youtu.be/dhksGkjtKqk
 Ongoing MERN Stack Backend Project Playlist
 Prerequisites(Should have prior knowlege of): Javascript, Nodejs, expressjs and mongodb
 Link: https://www.youtube.com/playlist?list=PLhHaibdHQVE3rmVdSWZYI7E42j0WZ7rc5
+Download the UI Template for FrontEnd from: https://github.com/sharmacomputeracademy/UITemplates
 
 React Router Playlist
 Prerequisites(Should have prior knowlege of): Javascript and React basics
